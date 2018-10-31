@@ -1,0 +1,18 @@
+
+Time: 10/30/18 18:04:56.646 - DEBUG *** file /data1/jenkins_home/workspace/cubrid_develop-J47JH2RY7V62WRJHWPALAPT3ARGME2HZEBRLEPP2J7SKRT6ZPIJQ/src/transaction/boot_cl.c, line 1730
+trying to connect 'ctldb@localhost'
+
+Time: 10/30/18 18:04:56.646 - DEBUG *** file /data1/jenkins_home/workspace/cubrid_develop-J47JH2RY7V62WRJHWPALAPT3ARGME2HZEBRLEPP2J7SKRT6ZPIJQ/src/transaction/boot_cl.c, line 1752
+ping server with handshake
+
+Time: 10/30/18 18:04:56.646 - NOTIFICATION *** file /data1/jenkins_home/workspace/cubrid_develop-J47JH2RY7V62WRJHWPALAPT3ARGME2HZEBRLEPP2J7SKRT6ZPIJQ/src/transaction/boot_cl.c, line 1153  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 18416) connected to database server 'ctldb' on the host 'localhost' (port 9700).
+
+Time: 10/30/18 18:04:56.647 - DEBUG *** file /data1/jenkins_home/workspace/cubrid_develop-J47JH2RY7V62WRJHWPALAPT3ARGME2HZEBRLEPP2J7SKRT6ZPIJQ/src/transaction/boot_cl.c, line 1202
+boot_restart_client: register client { type 2 db ctldb user dba password (null) program csql login cub host fmdev069.nhncorp.cn pid 18416 }
+
+Time: 10/30/18 18:04:59.187 - DEBUG *** file /data1/jenkins_home/workspace/cubrid_develop-J47JH2RY7V62WRJHWPALAPT3ARGME2HZEBRLEPP2J7SKRT6ZPIJQ/src/communication/network_interface_cl.c, line 6515
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/30/18 18:05:05.256 - DEBUG *** file /data1/jenkins_home/workspace/cubrid_develop-J47JH2RY7V62WRJHWPALAPT3ARGME2HZEBRLEPP2J7SKRT6ZPIJQ/src/communication/network_interface_cl.c, line 6515
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT

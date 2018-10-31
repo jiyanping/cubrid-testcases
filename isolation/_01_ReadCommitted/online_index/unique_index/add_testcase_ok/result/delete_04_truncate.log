@@ -1,0 +1,12 @@
+| 30000 rows affected
+| =================   Q U E R Y   R E S U L T S   =================
+| 
+| 
+|    'i'    'INTEGER'    'NO'    'PRI'    NULL    ''  
+|    'j'    'CHAR(10)'    'YES'    ''    NULL    ''  
+|    'k'    'INTEGER'    'YES'    ''    NULL    ''  
+| 3 rows selected
+| ERROR RETURNED: Your transaction has been unilaterally aborted by the system. 
+|    on statement number: 3
+ERROR: Master controller 0 halting because of SIGTERM.
+STATUS: forcefully killing pid ?
