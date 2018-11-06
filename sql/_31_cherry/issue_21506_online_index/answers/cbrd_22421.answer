@@ -12,9 +12,17 @@
 0
 ===================================================
 index_name    status    
-idx3     NORMAL INDEX     
 idx1     NORMAL INDEX     
 idx2     NORMAL INDEX     
+idx3     NORMAL INDEX     
+
+===================================================
+0
+===================================================
+index_name    status    
+idx1     INVISIBLE INDEX     
+idx2     NORMAL INDEX     
+idx3     NORMAL INDEX     
 
 ===================================================
 0

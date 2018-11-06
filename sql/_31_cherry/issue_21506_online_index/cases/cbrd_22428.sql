@@ -1,5 +1,7 @@
 drop table if exists t;
 
+drop table if exists a;
+
 create table t(i int, j int, k int) partition by hash (i) partitions 3;
 
 create unique index u_t_i on t(i) with online;
